@@ -1,0 +1,22 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Installed dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Separate repository nested in the frontend workspace
+Frontend/ai-resume-checker-ui-boilerplate-code/
